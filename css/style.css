@@ -1,0 +1,147 @@
+/*---------general styles---------*/
+
+
+
+
+* {
+		margin				: 				0 															;
+		padding				: 				0 															;
+		line-height 		: 				1 															;
+}			
+
+
+
+
+
+body {			
+		font-family 		: 				verdana, arial, sans-serif									;
+		background			: 				#ffffff													;
+		
+/*		background: #ffffff;
+*/		font-size			:   			62.5%                               						;
+}							
+
+
+
+
+
+h1, 			
+h2, 			
+h3, 			
+h4, 			
+h5, 			
+h6 {			
+		font-family 		: 				"trebuchet ms", arial, sans-serif							;
+		margin-bottom		: 				1em															;  
+}										
+
+
+
+
+
+p{			
+		font-size  			: 				1em															;
+		margin-bottom		: 				2em															;
+		line-height			: 				1.5em														;
+}			
+
+
+
+
+
+ul{			
+		font-size  			: 				1.2em														;
+		margin-bottom		: 				1.5em														;
+		list-style			:				none														; 
+}			
+
+
+
+
+
+a {
+		color 				: 				#024c8b														; 
+}
+
+
+
+
+li{
+		margin-bottom		: 				.5em														;
+}	
+/*---------global combinations-----*/
+			
+
+
+
+
+.debug{			
+		background			: 				red !important												;
+}			
+
+
+
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}			
+			
+/*---------specific styles---------*/
+			
+/*.logo-h1 {
+	background-image	: 				url(/css/img/blue-book.png)						;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+*/
+
+/*	.jay {
+		width:100%;
+		margin:0 auto;
+		height: 10em;
+		font-size: 2em;
+		background: red;
+	}
+.coral {
+		width:100%;
+		margin:0 auto;
+		height: 10em;
+		font-size: 2em;
+		background: blue;
+	}
+@media screen and (min-width: 480px) {
+	.jay {
+		width:50%;
+		float: left;
+		color:blue;
+	}
+
+	.coral {
+		width: 50%;
+		float: right;
+		color: red;
+	}
+}
+*/
+
+/*@media screen and (min-width: 1200px) {
+	.jay {
+		background: blue;
+	}
+}
+*/
+
+
+
+
+
+
+
+
+
+
