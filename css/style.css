@@ -98,12 +98,13 @@ li{
 			
 /*---------specific styles---------*/
 			
-/*.logo-h1 {
-	background-image	: 				url(/css/img/blue-book.png)						;
-	background-repeat: no-repeat;
+.logo-h1 {
+/*	background-image	: 				url(/css/img/blue-book.png)						;
+*/	background-repeat: no-repeat;
+	background: red;
 	margin: 0 auto;
 }
-*/
+
 
 /*	.jay {
 		width:100%;
@@ -138,9 +139,7 @@ li{
 	.jay {
 		background: blue;
 	}
-}
 */
-
 
 
 
