@@ -23,7 +23,7 @@ body {
 		background			: 				#ffffff													;
 		
 /*		background: #ffffff;
-*/		font-size			:   			62.5%                               						;
+*/		font-size			:   			62.5%                               						; 
 }							
 
 
@@ -36,18 +36,32 @@ h3,
 h4, 			
 h5, 			
 h6 {			
-		font-family 		: 				"trebuchet ms", arial, sans-serif							;
-		margin-bottom		: 				1em															;  
-}										
+		font-family 		: 				verdana, arial, sans-serif							;
+		margin-bottom		: 				.5em															;
+		text-align: center;  
+}
 
+h1 { 
+	color: #505050;
+}	
 
+h2 {
+	color: #7f7f7f;
+}								
 
+/*span {
+		background          : 				#f7e214 ;
+
+}
+*/
 
 
 p{			
-		font-size  			: 				1em															;
+		font-size  			: 				1.5em															;
 		margin-bottom		: 				2em															;
 		line-height			: 				1.5em														;
+		color: #6c6c6c;
+		text-align: center;
 }			
 
 
@@ -65,7 +79,8 @@ ul{
 
 
 a {
-		color 				: 				#024c8b														; 
+		color 				: 				#0079c1												; 
+		text-decoration: none;
 }
 
 
@@ -77,13 +92,14 @@ li{
 /*---------global combinations-----*/
 			
 
-
+img {
+	max-width: 100%;
+}
 
 
 .debug{			
 		background			: 				red !important												;
 }			
-
 
 
 
@@ -97,14 +113,305 @@ li{
 }			
 			
 /*---------specific styles---------*/
-			
-.logo-h1 {
-/*	background-image	: 				url(/css/img/blue-book.png)						;
-*/	background-repeat: no-repeat;
-	background: red;
-	margin: 0 auto;
+
+.header {
+/*	background: red;
+*/
+  	background-repeat: no-repeat;
+	width: 100%; /*640px wide*/
 }
 
+
+.header-logo {
+	height: 4em;
+}
+
+
+.logo-h1 {
+
+/*	background: green;
+*/	width: 42.5%; /*272/640*100*/
+/*	padding-bottom: 17em;
+*/	background	: 				url(/css/img/header-background2.jpg)					;
+	background-size: 1000% 3.2em;
+	margin: 0 auto;
+	color: #f7e214;
+}
+
+
+.we-give {
+	text-transform: uppercase;
+	line-height: 1.3em;
+}
+
+.content1 {
+	font-family: georgia,"times new roman", serif;
+	font-style: italic;
+
+}
+
+
+.donate-literacy {
+	text-transform: uppercase;
+	font-size: 1.6em;
+	word-spacing: .2em;
+	font-weight: bold;
+}
+
+.donate {
+	border-right: 1px solid #c1c1c1;
+	padding-right: .8em;
+}
+
+.rwd-line {
+	display: block;
+	line-height			: 				1.5em														;
+}
+
+
+
+.yellow {
+	background: yellow;
+	padding-left: .2em;
+	padding-right: .2em;
+}
+.usa{
+width: 100%;
+/*		max-width: 31em;
+*//*	height:38em;
+*/	background: url(/img/usa.png);
+/*	background-size: 100% 38em;
+*/    background-repeat: no-repeat;
+    background-position: center;	
+    margin-top: 1em;
+}
+
+.usa-content {
+	color: #ffffff;
+/*	padding-left: 5em;
+	padding-right: 5em;
+*/	padding-top: 8em;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+.ftb {
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}
+
+.tb {
+	color: #0079c1;
+}
+
+.two-thirds {
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.us-poverty {
+	text-transform: uppercase;
+	font-size: 1.6em;
+	color: #79c1ec;
+}
+
+.blog {
+	text-align: left;
+	
+}
+.blog1 {
+	margin-left: 3%;
+	width: 94%;
+	margin-left: 3%;
+	margin-right: 3%;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 3em;
+}
+
+.blog h2 {
+	text-transform: capitalize;
+	color: #0079c1;
+	font-size: 1.8em;
+}
+
+.time {
+	font-style: italic;
+	font-size: 1.1em;
+	margin-bottom: .5em; 
+}
+.have-no{
+	font-size: 3em;
+}
+
+.books {
+	font-size: 4em;
+}
+
+.period {
+	font-size: 5em;
+}
+
+
+.footer p{
+	color: #a1a1a1;
+	font-size: 1.4em;
+	line-height:2em;
+
+}
+
+.contact {
+	margin-top: 1.5;
+}
+
+
+
+.rif {
+	font-weight: bold;
+}
+
+.verizon {
+	color: #a7a7a7;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 459px ;
+	max-height: 165px;
+	padding-top: 8em;
+	padding-bottom: 8em;
+}
+
+.verizon1{	
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: .6em solid #0079c1;
+
+}
+
+.verizon-foundation {
+	color: blue;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+
+.footer img {
+	max-height: .4em;
+	max-width: .4em;
+	margin-bottom: .1em;
+}
+
+.privacy
+	{
+  list-style-type: disc;
+}
+
+
+.subscribe, 
+.search	{
+	font-size: 2.3em;
+	text-transform:uppercase;
+	position: static;
+}
+
+.btn-input {
+	height: 32px;
+	width: 176px;
+	font-size: 1.3em;
+	font-style: italic;
+	font-family: georgia,"times new roman", serif;
+	margin-top: 1em;
+/*	margin-left: 3em;
+*/	margin-bottom: 4em;
+	padding-left: 1em;
+	outline:1px solid #dfdfdf;
+	border: 1px solid #f4f4f4;
+}
+
+
+
+
+.btn-search {
+/*	color 				:				#ffffff			 ;
+*/	/*text-align			: 				center;*/
+	/*font-size: 1em;*/
+	background: url(/css/img/shaddow.png);
+	background-repeat: no-repeat;
+	background-size: 1000%;
+	height: 4em;
+	width: 5.5em;
+	margin-left: -.2em;
+	margin-bottom: -2em;
+/*	box-shadow: -1px 5px 7px #a1a1a1;
+*/}
+
+.sub {
+	text-align: center;
+}
+
+.btn-submit {
+/*	color 				:				#ffffff			 ;
+*/	/*text-align			: 				center;*/
+	/*font-size: 1em;*/
+	background: url(/css/img/shaddow.png);
+	background-repeat: no-repeat;
+	background-size: 1000%;
+	height: 3.6em;
+	width: 5.5em;
+	margin-left: -.2em;
+	margin-bottom: -1.7em;
+/*	box-shadow: -1px 5px 7px #a1a1a1;
+*/}
+
+.logos img {
+	height: 3em;
+}
+
+.twitter,
+.facebook {
+	margin-right: 6.5em;
+}
+
+.logos {
+	text-align: center;
+	width: 94%;
+	margin-right: 3%;
+	margin-left: 3%; 
+	border-top: 1px solid #eaeaea;
+	padding-top: 1.5em;
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.privacy {
+	text-transform: capitalize;
+	text-align: center;
+}
+
+
+.bullet:before {
+	content: "•";
+	color: #a1a1a1;
+	padding-right: .5em;
+	font-size: .8em
+
+
+}
+
+
+.footer .privacy1 {
+	font-size: .95em;
+\
+}
+
+
+}
 
 /*	.jay {
 		width:100%;
@@ -119,21 +426,13 @@ li{
 		height: 10em;
 		font-size: 2em;
 		background: blue;
-	}
+	}*/
 @media screen and (min-width: 480px) {
-	.jay {
-		width:50%;
-		float: left;
-		color:blue;
+	.rwd-line {
+		display: inline;
 	}
 
-	.coral {
-		width: 50%;
-		float: right;
-		color: red;
-	}
-}
-*/
+
 
 /*@media screen and (min-width: 1200px) {
 	.jay {
