@@ -115,29 +115,53 @@ img {
 /*---------specific styles---------*/
 
 .header {
-/*	background: red;
-*/
-  	background-repeat: no-repeat;
+	background: #1572b9; 
 	width: 100%; /*640px wide*/
+	height: 8em;
+	float: left;
+	padding-bottom: 1em;
 }
 
+.head-nav:before {
+	content: url(/css/img/header-point.png);
+	clear: both;
+	margin-left: 45%;
+	margin-right: 45%;
+
+}
+
+.header-logo1{
+	float: left;
+
+}
 
 .header-logo {
-	height: 4em;
+	height: 6em;
+	margin-left: 1em;
+	margin-top: 1.5em;
 }
 
 
 .logo-h1 {
-
-/*	background: green;
-*/	width: 42.5%; /*272/640*100*/
-/*	padding-bottom: 17em;
-*/	background	: 				url(/css/img/header-background2.jpg)					;
-	background-size: 1000% 3.2em;
-	margin: 0 auto;
 	color: #f7e214;
+	font-size: 1.3em;
+	text-transform: capitalize;
+	text-align: left;
+	float: left;
+	margin-top: 2.2em;
+	margin-left: .8em;
+
 }
 
+.hamburger{
+	float: right;
+	margin-top: 4em;
+	margin-right: 3em; 
+}
+
+.hamburger1 {
+	height: 1.2em;
+}
 
 .we-give {
 	text-transform: uppercase;
