@@ -28,8 +28,6 @@ body {
 
 
 
-
-
 h1, 			
 h2, 			
 h3, 			
@@ -122,13 +120,97 @@ img {
 	padding-bottom: 1em;
 }
 
+.border-bottom {
+		border-bottom: 1px solid #3389bd;
+}
+
 .head-nav:before {
 	content: url(/css/img/header-point.png);
 	clear: both;
-	margin-left: 45%;
-	margin-right: 45%;
+	margin-left: 46%;
+}
+
+.margin-bottom {
+	margin-bottom: 0em;
+}
+
+.head-nav {
+	text-align: left;
+	float: left;
+	background: #0065a0;
+	width: 100%;
 
 }
+
+.head-nav li {
+	padding-bottom: 1em;
+	padding-top: .5em;
+	padding-left: .5em;
+	overflow: hidden;
+}
+
+.head-nav a {
+	font-size: 1.3em;
+}
+
+.nav1{
+	color: #ffffff;
+	text-transform: uppercase;
+
+}
+
+.nav1:after {
+	content: url(/css/img/arrow.png);
+	float: right;
+	margin-right: 1em;
+}
+
+.nav2{
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.nav3 {
+	text-transform: capitalize;
+	color: #a3c3e1;
+}
+
+.left {
+	float: left;
+	width: 33%;
+	border-right: 1px solid #3389bd;
+
+}
+
+.right {
+	float: right;
+	padding-bottom: 0em; 
+	width: 33%;
+}
+
+.nav4 {
+	float: left;
+	margin-left: 40% ;
+	margin-top: .5em; 
+}
+
+.nav5 {
+	float: right;
+	margin-right: 40%;
+	margin-top: .6em; 
+
+}
+
+.nav6 {
+	margin-left: 25% ;
+	margin-top: .5em; 
+}
+
+.head-nav ul {
+	margin-bottom: 0em;
+	overflow: hidden;
+}
+
 
 .header-logo1{
 	float: left;
