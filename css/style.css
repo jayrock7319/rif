@@ -21,7 +21,6 @@
 body {			
 		font-family 		: 				verdana, arial, sans-serif									;
 		background			: 				#ffffff													;
-		
 /*		background: #ffffff;
 */		font-size			:   			62.5%                               						; 
 }							
@@ -174,6 +173,60 @@ img {
 	text-transform: capitalize;
 	color: #a3c3e1;
 }
+
+.video {
+	max-height: 15em;
+	max-width: 430px ;
+	margin-top: .5em;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-bottom: .5em;
+}
+
+.psa {
+/*	width: 73.359375% ; *//*939/1280*/
+	width: 97%;
+	background: #fff200;
+/*	margin-left: 13.3203125%;*/
+	margin-left: 1.5%;
+	padding-bottom: .5em;
+	margin-bottom: 1em;
+}
+
+.psa1 {
+	text-transform: uppercase;
+	text-align: left;
+	width: 95%;
+	margin-left: 2.5%;
+}
+
+.psa2 {
+	text-align: left;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-bottom: 1em;
+	font-size: 1.2em;
+}
+
+
+.psa3 {
+	text-transform: uppercase;
+	background: #0079c1;
+	width: 95%;
+	margin-left: 2.5%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin-top: .5em;
+	margin-bottom: .2em;
+	
+}
+
+.psa4 {
+	color: #ffffff;
+	font-size: 1em;
+
+}
+
 
 .left {
 	float: left;
@@ -338,6 +391,13 @@ width: 100%;
 	text-transform: capitalize;
 	color: #0079c1;
 	font-size: 1.8em;
+}
+
+
+.read-on {
+	text-transform: uppercase;
+	font-size: .9em;
+	margin-top: 1em;
 }
 
 .time {
